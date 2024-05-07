@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/signup",
+      "handler": "login.signup"
+    },
+    {
+      "method": "POST",
+      "path": "/login",
+      "handler": "login.login"
+    }
+  ]
+}

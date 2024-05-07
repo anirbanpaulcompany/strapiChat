@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chats",
+      "handler": "chat.getChatData",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chats",
+      "handler": "chat.sendMessage",
+      "config": {
+        "policies": []
+      }
+    }
+
+  ]
+}
